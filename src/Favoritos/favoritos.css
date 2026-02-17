@@ -1,0 +1,49 @@
+.favoritos 
+{
+  margin: 15px auto;   
+  width: 800px;
+  /* border: 2px solid red; */
+}
+
+.favoritos-detalhes
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 12px;
+}
+.butoes a
+{
+  margin: 0 20px; 
+  text-decoration: none;
+  background: #116feb;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 15px;
+  color: #000;
+
+}
+
+.butoes a:hover
+{
+  color: #fff;
+
+  
+}
+.butoes button
+{
+  padding: 5px;
+  border-radius: 5px;
+  border: 0;
+  cursor: pointer;
+  transition: all 1.5;
+}
+
+.butoes button:hover
+{
+  background: brown;
+  cursor: pointer;
+  color: #fff;
+}
+
+

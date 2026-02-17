@@ -1,0 +1,64 @@
+.dados-filme
+{
+    width: 800px;
+    margin: 15px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+h2
+{
+    padding-bottom: 10px;
+}
+h3
+{
+    margin-top: 10px;
+}
+h2.loading
+{
+    text-align: center;
+}
+.dados-filme img
+{
+    width: 800px;
+    height: 420px;
+    object-fit: cover;
+}
+.dados-filme span,strong
+{
+    margin-top: 10px;
+}
+.area-butoes 
+{
+   margin: 10px;
+}
+
+.area-butoes button
+{
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+    border:0;
+    cursor:pointer;
+    transition:all 0.5s;
+    background: #dbdbdb;
+
+}
+.area-butoes button a
+{
+   text-decoration: none;
+   color: #000;
+}
+.area-butoes button:hover
+{
+   color:#fff;
+   background:brown
+}
+
+.area-butoes a:hover
+{
+   color:#fff;
+}
+
+
+
