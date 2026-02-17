@@ -37,7 +37,7 @@ function Filme()
         
     }
      loading();
-  },[])  
+  },[id, navigate])  
 
 
    if(loading)
@@ -76,7 +76,7 @@ function Filme()
       <div className='dados-filme'>
         
         <h2>{filme.title}</h2>
-        <img src={`https://image.tmdb.org/t/p/original/${filme.backdrop_path} alt=${filme.title}`}/>
+        <img src={`https://image.tmdb.org/t/p/original/${filme.backdrop_path}`} alt={filme.title}/>
              
         <h3>Sinopse</h3>
         <span>{filme.overview}</span>

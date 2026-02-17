@@ -44,7 +44,7 @@ return (
           <div className='lista-filmes'>
            <h2 className='titulo'>{filme.title}</h2>
            
-           <img src={`https://image.tmdb.org/t/p/original/${filme.poster_path} alt=${filme.title}`}/>
+           <img src={`https://image.tmdb.org/t/p/original/${filme.poster_path}`} alt={filme.title}/>
 
            <Link to={`/filme/${filme.id}`}>Acessar</Link>
 
